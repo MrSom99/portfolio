@@ -20,7 +20,7 @@ function App() {
       <Navbar darkMode={darkMode} darkmode={darkmode} lightmode={lightmode} />
       <Routes>
         <Route path="/" element={<Home />}></Route> 
-        <Route path="/porfolio" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/stack" element={<TechStack />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
