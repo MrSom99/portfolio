@@ -19,6 +19,7 @@ function App() {
     <div className={`${darkMode?"bg-black":"bg-white"} text-cyan-700  min-h-screen max-h-full p-2 sm:p-0`}>
       <Navbar darkMode={darkMode} darkmode={darkmode} lightmode={lightmode} />
       <Routes>
+        <Route path="/" element={<Home />}></Route> 
         <Route path="/porfolio" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/stack" element={<TechStack />}></Route>
